@@ -26,6 +26,7 @@ var http = require('http');
 var server = http.createServer(app);
 server.listen(port, function () {
     console.log('Weather Report listening on ' + url);
+    console.log("Up and running !!!");
 });
 
 app.get("/", function(req, res) {
